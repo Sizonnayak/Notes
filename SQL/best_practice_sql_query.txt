@@ -1,0 +1,22 @@
+﻿Best practices for writing SQL quesries:
+
+✅ Write SQL keywords in capital letters.
+
+✅ Use table aliases with columns when you are joining multiple tables.
+
+✅ Avoid SELECT * for better performance, always mention list of columns in select clause.
+
+✅ Add useful comments wherever you write complex logic. Avoid too many comments.
+
+✅ Use joins instead of subqueries when possible for better performance.
+
+✅ Create CTEs instead of multiple sub queries , it will make your query easy to read.
+
+✅ Join tables using JOIN keywords instead of writing join condition in where clause for better readability.
+
+✅ Never use order by in sub queries , It will unnecessary increase runtime.
+
+✅ If you know there are no duplicates in 2 tables, use UNION ALL instead of UNION for better performance.
+
+✅ Avoid Functions on Indexed Columns in WHERE To maintain indexing efficiency.
+
