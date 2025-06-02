@@ -1,0 +1,44 @@
+1. Why is cross-entropy the default loss function in Logistic Regression? Why not others like MSE?
+2. How does Random Forest reduce variance? If it does, why don’t we just keep adding more trees indefinitely? Any mathematical justification?
+3. What exactly is a parameter in Logistic Regression, and how does it evolve during training?
+4. How are hyperparameters chosen in a Decision Tree model?
+5. Between SVM and Logistic Regression, which model is more sensitive to outliers, and why?
+6. How do outliers affect Hard Margin vs Soft Margin SVMs?
+7. Why is the sigmoid function specifically used in the input gate of LSTM?
+8. Can you derive and explain the mathematical foundations and conditions for:
+SVM (Hard & Soft margin),Kernel Trick,PCA, LDA, and t-SNE
+9. What does the term "gradient" mean in the context of Gradient Boosting?
+10. How are images stored and handled in RAG (Retrieval Augmented Generation) pipelines?
+11. Why do we raise the error to the power of 2 in MSE, and not 3 or any other number?
+
+**Top Interview Questions for Data Science Freshers: ML, NLP, and Statistics** - Part 10 by Nikhil Naganur
+
+ **Machine Learning Questions** 
+1. Why might adding more features to a dataset degrade model performance? How would you identify and remove irrelevant features? 
+2. Why is gradient descent not guaranteed to find the global minimum in non-convex loss functions? 
+3. Why might you prefer a simpler model like Logistic Regression over a complex one like a Neural Network in some cases? 
+4. If your model's AUC score is high but precision is low, why might this happen, and how would you address it? 
+5. Why do tree-based algorithms like XGBoost handle missing values better than most other models? 
+
+ **Natural Language Processing Questions** 
+1. Why is subword tokenization (e.g., Byte-Pair Encoding) useful in handling rare words in NLP tasks? 
+2. Why might overfitting be a bigger issue in NLP tasks compared to tabular data? 
+3. If you’re training an NLP model, why might smaller batch sizes lead to better generalization for text data? 
+4. Why do transformer models like GPT require positional encoding, and how does it work? 
+5. Why might text summarization models struggle with long documents, and how would you overcome this? 
+
+**Statistics Questions** 
+1. Why is it important to check the distribution of residuals in regression analysis? 
+2. If two datasets have the same mean and variance, why might they still have very different distributions? 
+3. Why is it crucial to consider sample size when interpreting confidence intervals? 
+4. In A/B testing, why might a test that runs for too long lead to misleading results? 
+5. Why might you use bootstrapping instead of traditional hypothesis testing for small datasets? 
+
+**Scenario-Based/Real-World Questions** 
+1. Your model is biased against certain demographics. Why might this happen, and how would you mitigate it? 
+2. You’re tasked with building a recommendation system for a new e-commerce site with no historical data. How would you approach this? 
+3. If your dataset contains a high percentage of duplicate entries, why might this affect your model’s performance? 
+4. Why might deploying a model trained on cloud GPUs fail to perform well on edge devices? 
+5. You’re working with a time-series dataset where sudden spikes occur. Why might traditional smoothing techniques fail, and what alternatives would you use? 
+
+These questions don’t just test theoretical knowledge but also your ability to think critically. 
